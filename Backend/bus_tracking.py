@@ -1,6 +1,6 @@
 from flask import Blueprint, jsonify
 
-bus_timings_bp = Blueprint('bus_timings', __name__)
+bus_tracking_bp = Blueprint('bus_tracking', __name__)
 
 @bus_timings_bp.route('/bus-timings/<bus_stop>')
 def get_bus_timings(bus_stop):
